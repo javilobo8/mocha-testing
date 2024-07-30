@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npm run build && mocha build",
-    "test-shard": "npm run build && mocha",
+    "test": "npm run build && nyc mocha build",
+    "test-shard": "npm run build && nyc mocha",
     "build": "rm -rf build && tsc"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "@types/sinon": "^17.0.3",
     "chai": "^5.1.1",
     "mocha": "^10.7.0",
+    "nyc": "^15.1.0",
     "sinon": "^18.0.0",
     "typescript": "^5.5.4"
   }
