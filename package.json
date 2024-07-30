@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "npm run build && mocha build",
+    "test-shard": "npm run build && mocha",
     "build": "rm -rf build && tsc"
   },
   "keywords": [],

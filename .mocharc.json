@@ -3,5 +3,5 @@
   "recursive": true,
   "include": ["build/**/*.spec.js"],
   "parallel": true,
-  "jobs": 2
+  "jobs": 16
 }
